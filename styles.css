@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.statement {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px; /* Added margin beneath the statement */
+}
+
+.rabbit-gif {
+  max-width: 100%;
+  margin-bottom: 20px; /* Added margin beneath the GIF */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Added gap among buttons */
+}
+
+.btn-yes,
+.btn-no {
+  padding: 15px 30px; /* Increased button size */
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-yes {
+  background-color: #4CAF50; /* Stylish background color for Yes button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-no {
+  background-color: #f44336; /* Stylish background color for No button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.float-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
